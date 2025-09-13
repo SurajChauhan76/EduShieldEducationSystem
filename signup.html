@@ -4,12 +4,31 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Signup Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="signup.css" />
   </head>
   <body>
+    <nav class="navbar">
+      <div class="left_nav">
+        <div class="logo">
+          <i class="fa-solid fa-shield-halved"></i>
+          <b class="heading" >Edushield</b>
+        </div>
+      </div>
+      <div class="right_nav">
+        <div class="features">
+          <a href="./learning/learning.html">Learning</a>
+        </div>
+        <div class="impact"><a href="#">Drills</a></div>
+        <div class="impact"><a href="#">Emergency</a></div>
+        <div class="impact"><a href="#">Resources</a></div>
+        <div class="impact"><a href="#">About</a></div>
+        <div class="stakeholders"><a href="#">Contact</a></div>
+      </div>
+    </nav>
     <div class="signup">
-      <form action="">
-        <h2>Login-form</h2>
+      <form action="/login/login.html">
+        <!-- <h2>Login-form</h2> -->
         <label for="name">Enter Full Name</label>
         <input type="text" name="name" id="name" />
 
@@ -20,7 +39,7 @@
         <input type="pass" name="pass" id="pass" />
 
         <label for="type">Select Role</label>
-        <select name="type" id="type">  
+        <select name="type" id="type">
           <option value="student">Choose</option>
           <option value="student">Student</option>
           <option value="teacher">Teacher</option>
@@ -31,3 +50,4 @@
     </div>
   </body>
 </html>
+
