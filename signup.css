@@ -1,27 +1,114 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 12;
+  height: 68px;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(224, 233, 255);
+}
+.left_nav {
+  height: 100%;
+  width: 40%;
+  /* border: 2px solid blue; */
+}
+.logo {
+  width: 40%;
+  height: 100%;
+  /* border-right: 2px solid black; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 20px;
+  gap: 5px;
+}
+.logo i {
+  font-size: 30px;
+  color: blue;
+}
+.logo .heading {
+  font-size: 20px;
+  color: blue;
+  font-family: sans-serif;
+}
+.right_nav {
+  height: 100%;
+  width: 60%;
+  /* border: 2px solid rgb(4, 10, 4); */
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+  padding-right: 30px;
+}
+.right_nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+}
+.right_nav a:hover {
+  cursor: pointer;
+  color: blue;
+}
+.login,
+.getStarted {
+  box-shadow: 0px 0px 5px black;
+  padding: 8px 15px;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
 }
 
 .signup {
-    height: 100vh;
-    background-color: rgb(204, 196, 196);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 84vh;
+  /* background-color: rgb(204, 196, 196); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 form {
-    min-height: 200px;
-    width: 250px;
-    padding: 20px;
-    background-color: blueviolet;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    border-radius: 10px;
+  min-height: 200px;
+  width: 250px;
+  padding: 20px;
+  background-color: rgb(52, 77, 115);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 10px;
+}
+form label {
+  font-weight: bold;
+  font-size: 19px;
+  color: white;
 }
 
 form input {
-    border-radius: 6px;
-    padding: ;
+  border-radius: 6px;
+  padding: 6px;
+  border: 0;
+}
+
+form select {
+  padding: 6px;
+  border-radius: 5px;
+  border: 0;
+}
+
+.submit {
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 17px;
+  padding: 8px 10px;
+  background-color: rgb(79, 79, 242);
+  color: white;
+  border: 0;
+  border-radius: 5px;
 }
