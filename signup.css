@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.signup {
+    height: 100vh;
+    background-color: rgb(204, 196, 196);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form {
+    min-height: 200px;
+    width: 250px;
+    padding: 20px;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+}
+
+form input {
+    border-radius: 6px;
+    padding: ;
+}
