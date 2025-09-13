@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Disaster Learning Hub</title>
+  <link rel="stylesheet" href="../styles/Learning.css" />
+</head>
+<body>
+  <header>
+    <h1>Disaster Awareness Learning Hub</h1>
+    <nav>
+      <a href="./EduShield.html">Home</a>
+      <a href="./About.html">About</a>
+      <a href="./Learning.html" class="active">Learning</a>
+      <a href="./Login.html">Login</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="intro">
+      <h2>Choose a Disaster Topic to Learn</h2>
+      <p>Click on any topic below to explore awareness and safety tips. Login is required to access full content.</p>
+    </section>
+
+    <section class="cards">
+      <div class="card" onclick="redirectToLogin()">
+        <h3>🌪️ Earthquake Preparedness</h3>
+        <p>Learn how to stay safe before, during, and after an earthquake.</p>
+        <br><br>
+        <input type="button"
+      </div>
+
+      <div class="card" onclick="redirectToLogin()">
+        <h3>🌊 Flood Awareness</h3>
+        <p>Understand flood risks and how to respond effectively.</p>
+      </div>
+
+      <div class="card" onclick="redirectToLogin()">
+        <h3>🔥 Fire Safety</h3>
+        <p>Explore fire prevention techniques and emergency actions.</p>
+      </div>
+
+      <div class="card" onclick="redirectToLogin()">
+        <h3>🌪️ Cyclone Preparedness</h3>
+        <p>Know what to do before, during, and after a cyclone.</p>
+      </div>
+
+      <div class="card" onclick="redirectToLogin()">
+        <h3>☣️ Chemical Spill Response</h3>
+        <p>Learn how to handle hazardous material incidents safely.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 EduShield | Disaster Education System</p>
+  </footer>
+
+  <script>
+    function redirectToLogin() {
+      window.location.href = "./Login.html";
+    }
+  </script>
+</body>
+</html>
